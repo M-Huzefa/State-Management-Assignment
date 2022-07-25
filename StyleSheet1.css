@@ -1,0 +1,38 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    background-color: #f2efe9;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    /*flex-direction: column;*/
+    width: 40%;
+    height: 40px;
+    margin: 70px auto;
+}
+
+div #textbox{
+    font-size: 24px;
+    width: 75%;
+    height: 100%;
+    padding: .5em;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
+
+div #button{
+    font-size: 24px;
+    width: 22%;
+    padding: 0.2em;
+    background-color: #f2a71b;
+    border: none;
+    border-radius: 5px;
+}
+
+div #button:hover{
+    background-color: lawngreen;
+}
