@@ -48,3 +48,30 @@
 #container #button3:hover{
     background-color: lawngreen;
 }
+
+#container1{
+    margin: auto;
+    padding: 30px;
+    background-color: lightcyan;
+    width: 40%;
+    text-align: center;
+}
+
+#container1 h1{
+    padding: 20px;
+    background-color: lightcyan;
+}
+
+#container1 #button2{
+    width: 31%;
+    padding: 0.2em;
+    font-size: 21px;
+    background-color: #f2a71b;
+    border: none;
+    border-radius: 5px;
+}
+
+#container1 #button2:hover{
+    background-color: lawngreen;
+}
+
